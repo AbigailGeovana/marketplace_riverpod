@@ -43,7 +43,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
                       ),
                       Text('${product.title}...'),
                       const Expanded(child: SizedBox()),
-                      Text('E${product.price}'),
+                      Text('R${product.price}'),
                     ],
                   ),
                 );

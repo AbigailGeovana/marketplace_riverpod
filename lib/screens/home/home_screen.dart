@@ -37,7 +37,7 @@ class HomeScreen extends ConsumerWidget {
                     height: 60,
                   ),
                   Text(allProducts[index].title),
-                  Text('E${allProducts[index].price}'),
+                  Text("R${allProducts[index].price}"),
                 ],
               ),
             );
