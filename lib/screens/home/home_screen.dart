@@ -39,7 +39,7 @@ class HomeScreen extends ConsumerWidget {
                     height: 60,
                   ),
                   Text(allProducts[index].title),
-                  Text("R${allProducts[index].price}"),
+                  Text("RS${allProducts[index].price}"),
                   cartProducts.contains(allProducts[index])
                       ? TextButton(
                           onPressed: () {
